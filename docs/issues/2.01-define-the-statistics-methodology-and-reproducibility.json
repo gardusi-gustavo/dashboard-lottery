@@ -1,0 +1,22 @@
+{
+  "rank": "2.01",
+  "title": "Define the statistics methodology and reproducibility",
+  "context": "Define how lottery statistics are computed and how a result can be reproduced.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define the statistics methodology and reproducibility",
+    "expected_outcome": "Confirm the migrated scope and acceptance criteria.",
+    "acceptance_criteria": [
+      "Every metric has a formula.",
+      "Windows are explicit.",
+      "Missing data is handled.",
+      "Recomputing from the same data gives the same result.",
+      "The randomness disclaimer is visible.",
+      "Fixtures cover small samples."
+    ]
+  },
+  "attempts": []
+}

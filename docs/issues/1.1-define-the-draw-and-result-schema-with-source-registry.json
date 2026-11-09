@@ -1,0 +1,22 @@
+{
+  "rank": "1.1",
+  "title": "Define the draw and result schema with source registry",
+  "context": "Define the draw, result, and source records for lottery ingestion.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Define the draw and result schema with source registry",
+    "expected_outcome": "Confirm the migrated scope and acceptance criteria.",
+    "acceptance_criteria": [
+      "Schema is documented and versioned.",
+      "Every lottery has a source entry.",
+      "Duplicate draws collapse to one record.",
+      "Corrections are handled explicitly.",
+      "Staleness is visible.",
+      "Invalid records are rejected."
+    ]
+  },
+  "attempts": []
+}

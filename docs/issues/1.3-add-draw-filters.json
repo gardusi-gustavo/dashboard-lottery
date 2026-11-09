@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Add draw filters",
+  "context": "Draws cannot be narrowed by contest or date.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add contest and date filters.",
+    "expected_outcome": "A reader can filter the draw list.",
+    "acceptance_criteria": [
+      "Filters are static-friendly",
+      "Paging is deterministic"
+    ]
+  },
+  "attempts": []
+}

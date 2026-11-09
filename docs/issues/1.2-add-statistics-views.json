@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add statistics views",
+  "context": "There are no frequency or overdue views.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add static statistics views.",
+    "expected_outcome": "A reader can compare frequencies and overdue numbers.",
+    "acceptance_criteria": [
+      "Views are deterministic",
+      "Empty state is shown"
+    ]
+  },
+  "attempts": []
+}

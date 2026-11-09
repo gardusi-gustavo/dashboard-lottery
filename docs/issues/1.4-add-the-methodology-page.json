@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add the methodology page",
+  "context": "Statistics have no published method.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a methodology page.",
+    "expected_outcome": "Every statistic links to its method.",
+    "acceptance_criteria": [
+      "Method page exists",
+      "Formulas are explicit"
+    ]
+  },
+  "attempts": []
+}

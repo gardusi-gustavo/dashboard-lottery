@@ -1,6 +1,6 @@
 # dashboard-lottery
 
-Lottery statistics. Static GitHub Pages site. Data is checked out from `gardusi-gustavo/database` at build time; there is no runtime CORS call.
+Lottery statistics. Static GitHub Pages site. Data is checked out from `gardusi-gustavo/database-lottery` at build time; there is no runtime CORS call.
 
 ## Repository facts
 
